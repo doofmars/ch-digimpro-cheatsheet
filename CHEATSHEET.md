@@ -37,4 +37,12 @@
 | $R^{-1}$ | Inverse rotational matrix | $R^{-1} = R^T$ |
 | $R_x$ | Rotational matrix around x | $R_x=\begin{bmatrix} 1&0&0\\0&\cos&-\sin\\0&\sin&\cos  \end{bmatrix}$ |
 | $R_y$ | Rotational matrix around x | $R_y=\begin{bmatrix} \cos&0&\sin\\0&1&0\\-\sin&0&\cos  \end{bmatrix}$ |
-| $R_z$ | Rotational matrix around x | $R_z=\begin{bmatrix} \cos&-\sin&0\\\sin&\cos&0\\0&0&1 \end{bmatrix}$| 
+| $R_z$ | Rotational matrix around x | $R_z=\begin{bmatrix} \cos&-\sin&0\\\sin&\cos&0\\0&0&1 \end{bmatrix}$|
+
+
+| $\alpha$ in degrees | 0°                       | 30°                                 | 45°                             | 60°                             | 90°                      |
+|---------------------|--------------------------|-------------------------------------|---------------------------------|---------------------------------|--------------------------|
+| $\alpha$ in radians | 0                        | $\frac{\pi}{6}$                     | $\frac{\pi}{4}$                 | $\frac{\pi}{3}$                 | $\frac{\pi}{2}$          |
+| sin $\alpha$        | $\frac{\sqrt{0}}{2} = 0$ | $\frac{\sqrt{1}}{2} = \frac{1}{2} $ | $\frac{\sqrt{2}}{2} = 0.707.. $ | $\frac{\sqrt{3}}{2} = 0.866.. $ | $\frac{\sqrt{4}}{2} = 1$ |
+| cos $\alpha$        | 1                        | $\frac{1}{2} \sqrt{3}$              | $\frac{1}{2} \sqrt{2}$          | $\frac{1}{2}$                   | 0                        |
+| tan $\alpha$        | 0                        | $\frac{1}{3} \sqrt{3}$              | 1                               | $\sqrt{3}$                      | not defined              |
